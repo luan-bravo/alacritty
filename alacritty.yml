@@ -41,8 +41,8 @@ window:
   # Specified in number of pixels.
   # If the position is not set, the window manager will handle the placement.
   position:
-    x: 240
-    y: 120
+    x: 0
+    y: 0
 
   # Window padding (changes require restart)
   #
@@ -70,7 +70,7 @@ window:
   #
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
-  opacity: 0.97
+  opacity: 0.93
 
   # Startup Mode (changes require restart)
   #
@@ -81,7 +81,7 @@ window:
   #
   # Values for `startup_mode` (macOS only):
   #   - SimpleFullscreen
-  startup_mode: Windowed
+  startup_mode: Maximized
 
   # Window title
   title: Alacritty
@@ -123,68 +123,68 @@ scrolling:
 #multiplier: 3
 # Font configuration
 font:
-    # Normal (roman) font face
-    normal:
-      # Font family
-      #
-      # Default:
-      #   - (macOS) Menlo
-      #   - (Linux/BSD) monospace
-      #   - (Windows) Consolas
-      family: Hasklug Nerd Font Mono
-    
-      # The `style` can be specified to pick a specific face.
-      style: Regular
+  # Normal (roman) font face
+  normal:
+    # Font family
+    #
+    # Default:
+    #   - (macOS) Menlo
+    #   - (Linux/BSD) monospace
+    #   - (Windows) Consolas
+    family: Hasklug Nerd Font Mono
 
-    # Bold font face
-    bold:
-      # Font family
-      #
-      # If the bold family is not specified, it will fall back to the
-      # value specified for the normal font.
-      family: Hasklug Nerd Font Mono
+    # The `style` can be specified to pick a specific face.
+    style: Regular
 
-      # The `style` can be specified to pick a specific face.
-      style: Bold
+  # Bold font face
+  bold:
+    # Font family
+    #
+    # If the bold family is not specified, it will fall back to the
+    # value specified for the normal font.
+    family: Hasklug Nerd Font Mono
 
-    # Italic font face
-    italic:
-        # Font family
-        #
-        # If the italic family is not specified, it will fall back to the
-        # value specified for the normal font.
-        family: Hasklug Nerd Font Mono
+    # The `style` can be specified to pick a specific face.
+    style: Bold
 
-        # The `style` can be specified to pick a specific face.
-        style: Italic
+  # Italic font face
+  italic:
+    # Font family
+    #
+    # If the italic family is not specified, it will fall back to the
+    # value specified for the normal font.
+    family: Hasklug Nerd Font Mono
 
-    # Bold italic font face
-    bold_italic:
-      # Font family
-      #
-      # If the bold italic family is not specified, it will fall back to the
-      # value specified for the normal font.
-      family: Hasklug Nerd Font Mono
+    # The `style` can be specified to pick a specific face.
+    style: Italic
 
-      # The `style` can be specified to pick a specific face.
-      style: Bold Italic
+  # Bold italic font face
+  bold_italic:
+    # Font family
+    #
+    # If the bold italic family is not specified, it will fall back to the
+    # value specified for the normal font.
+    family: Hasklug Nerd Font Mono
 
-    # Point size
-    size: 13.0
+    # The `style` can be specified to pick a specific face.
+    style: Bold Italic
 
-    # Offset is the extra space around each character. `offset.y` can be thought
-    # of as modifying the line spacing, and `offset.x` as modifying the letter
-    # spacing.
-    #offset:
-    #  x: 0
-    #  y: 0
+  # Point size
+  size: 13.0
 
-    # Glyph offset determines the locations of the glyphs within their cells with
-    # the default being at the bottom. Increasing `x` moves the glyph to the
-    # right, increasing `y` moves the glyph upward.
-    #glyph_offset:
-    #  x: 0
-    #  y: 0
+  # Offset is the extra space around each character. `offset.y` can be thought
+  # of as modifying the line spacing, and `offset.x` as modifying the letter
+  # spacing.
+  #offset:
+  #  x: 0
+  #  y: 0
+
+  # Glyph offset determines the locations of the glyphs within their cells with
+  # the default being at the bottom. Increasing `x` moves the glyph to the
+  # right, increasing `y` moves the glyph upward.
+  #glyph_offset:
+  #  x: 0
+  #  y: 0
 
 # Use built-in font for box drawing characters.
 #
