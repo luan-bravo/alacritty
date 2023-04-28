@@ -24,6 +24,8 @@ env:
   #TERM: alacritty
   ZDOTDIR: $HOME/.config/zsh/oh-my-zsh/
   ZSH: $HOME/.config/zsh/
+  SHELL: /usr/bin/zsh
+
 
 window:
   # Window dimensions (changes require restart)
