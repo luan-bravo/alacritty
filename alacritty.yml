@@ -22,8 +22,8 @@ env:
   # check the local terminfo database and use `alacritty` if it is
   # available, otherwise `xterm-256color` is used.
   #TERM: alacritty
-  ZDOTDIR: $HOME/.config/zsh/oh-my-zsh/
-  ZSH: $HOME/.config/zsh/
+  #ZDOTDIR: $HOME/.config/zsh
+  #ZSH: $HOME/.config/zsh/
   SHELL: /usr/bin/zsh
 
 window:
@@ -452,11 +452,10 @@ unfocused_hollow: true
 #   - (Linux/BSD/macOS) `$SHELL` or the user's login shell, if `$SHELL` is unset
 #   - (Windows) powershell
 shell:
-  program: /bin/zsh
-  args:
-    - --login
-  execute:
-    - "source /home/lul/.config/zsh/.zshrc"
+  program:
+    /bin/zsh
+    # args:
+    # - --login
 
 # Startup directory
 #
