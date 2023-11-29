@@ -453,7 +453,7 @@ unfocused_hollow: true
 #   - (Windows) powershell
 shell:
   program:
-    /bin/zsh
+    tmux
     # args:
     # - --login
 
