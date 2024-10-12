@@ -10,7 +10,7 @@ shape = "Block"
 SHELL = "/usr/bin/zsh"
 
 [font]
-size = 8.0
+size = 9.0
 
 [font.bold]
 family = "Hasklug Nerd Font Mono"
